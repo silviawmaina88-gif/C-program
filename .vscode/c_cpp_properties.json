@@ -3,7 +3,7 @@
         {
             "name": "Win32",
             "includePath": [
-                "\"${workspaceFolder}/**\""
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
@@ -11,8 +11,8 @@
                 "_UNICODE"
             ],
             "intelliSenseMode": "windows-gcc-x64",
-            "compilerPath": "c:\\\\ming\\\\mingw32\\\\bin\\\\gcc.exe",
-            "cStandard": "gnu17",
+            "compilerPath": "C:\\mingw64\\mingw64\\bin\\gcc.exe",
+            "cStandard": "c17",
             "cppStandard": "gnu++17"
         }
     ],
