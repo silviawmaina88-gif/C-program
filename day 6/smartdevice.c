@@ -24,8 +24,8 @@ int main(){
     batteryhoursleft= 100.0 / batterydrainagerate;
 
     printf("=======================SYSTEM DIAGNOSIS REPORT=====================\n");
-    printf(" Available storage :%.1f \n %%",freestorage); //how do i make it appear at the end of the other line?
-    printf(" Storage percent free :%.1f \n ",freestoragepercent);
+    printf(" Available storage :%.1f \n ",freestorage); //how do i make it appear at the end of the other line?
+    printf(" Storage percent free :%.1f%% \n ",freestoragepercent);
     printf(" Hours of battery left :%.1f \n ",batteryhoursleft);
 
 
